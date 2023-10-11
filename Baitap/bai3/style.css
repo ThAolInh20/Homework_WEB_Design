@@ -1,0 +1,52 @@
+
+.menu{
+    background-color: aqua;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+.menu ul{
+    display: inline-flex;
+    height:100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menu ul li{
+    padding: 15px;
+    flex-grow: 1;
+    width:fit-content;
+    border: 1px solid pink;
+
+}
+.menu ul li a{
+    color: rgb(134, 132, 132);
+    text-decoration: none;
+}
+.submenu{
+    display: none;
+}
+.menu ul li:hover {
+    background-color: rgb(134, 132, 132);
+}
+.menu ul li:hover a{
+    color: aqua;
+}
+.menu ul li:hover .submenu{
+    width: 150px;
+    display: block;
+    padding: 5px;
+    text-align: center;
+}
+.menu ul li:hover .submenu ul{
+   width: ;
+    display: grid;
+    background-color: rgb(134, 132, 132);
+}
+.menu ul li:hover .submenu ul li{
+    
+    border: none;
+    border-bottom: 1px solid wheat;
+ }
+

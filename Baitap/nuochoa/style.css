@@ -1,0 +1,87 @@
+
+header p{
+    color: rgb(221, 68, 93);
+}
+#Tenweb{
+    float: left;
+}
+.chucnang ul{
+    list-style: none;
+}
+.chucnang li{
+    border-right: 1px solid ;
+    float:left;
+}
+
+.chucnang a{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none; 
+}
+.near_ten {
+    display: flex;
+   
+}
+.near_ten > * {
+    margin-bottom: 10px;
+}
+.find_sp input{
+    float:left;
+}
+.tweb{
+    width: 75%;
+}
+nav{
+    border: 1 solid;
+}
+nav ul{
+    list-style: none;
+    display: flex;align-items:center;
+    
+}
+.content{
+    width: 80%;
+    justify-self: center;
+    align-items: center;
+    border: 1 solid rgb(194, 191, 191);
+    
+}
+img{
+    width: 100%;
+    height: auto;
+}
+nav li{
+    margin: 20px;
+    border: 1 solid white;
+    background-color: aquamarine;
+    
+}
+.bg{
+    justify-content: top;
+}
+.mucluc{
+    border: 1px solid black;
+}
+nav li a{
+    text-decoration: none;
+    color:white;
+}
+.mucluc{
+    color: aliceblue;
+}
+.timkiem{
+    background-color: brown;
+}
+.tendanhmuc{
+    background-color: rgb(233, 151, 151);
+}
+#c1{
+    border-right: 1px solid black;
+}
+.tendanhmuc a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.haha td{
+    color: rgb(34, 28, 20);
+}

@@ -1,0 +1,51 @@
+header{
+    background-color: aqua;
+    max-height: 20%;
+}
+.logo img{
+    width: 130px;
+    height: 100%;
+    border-radius: 50%;
+}
+header p{
+    color: rgb(9, 168, 168);
+    font-size: 50px;
+    font-style: italic;
+}
+.menu{
+    background-color: white;
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.menu ul{
+    
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin:0;
+    list-style: none;
+}
+.menu a{
+    
+    text-decoration: none;
+}
+.menu li{
+    border: 1px solid;
+    flex-grow: 1;
+    text-align: center;
+    color: rgb(132, 18, 43);
+}
+.menu li:hover{
+    background-color: aqua;
+    color: brown;
+}
+section table{
+    color: aliceblue;
+}
+.content .c1{
+    background-color: aquamarine;
+}
+.content .c2{
+    background-color: rgb(8, 96, 96)
+}

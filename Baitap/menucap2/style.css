@@ -1,0 +1,153 @@
+body{
+    background-image: url(anh2.jpg) no-repeat ;
+    background-size: cover;
+}
+Header{
+    width: 100%;
+    display: inline-flex;
+    text-align: left;
+    background-image: url(anh2.jpg) no-repeat;
+    background-size: cover;
+    background-color: bisque;
+}
+.logo img{
+    width: 75px;
+    height: 80%;
+    justify-items: center;
+    
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.Tenct {
+    
+    color: aqua;
+    font-style: italic;
+    font-size: 45px;
+}
+.menu{
+    
+    background-color:rgb(161, 161, 146);
+    text-align: center;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-flex;
+}
+.menu ul li{
+    padding: 15px;
+    margin: 5px;
+    width:fit-content;
+    border: 1px solid;
+}
+.menu ul li a{
+    padding: 20px;
+    color: black;
+}
+.menu ul li:hover a{
+    color: aqua;
+}
+.submenu{
+    display: none;
+}
+.menu ul li:hover .submenu{
+    align-items: left;
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+    background-color: rgb(210, 227, 165);
+}
+.menu ul li:hover .submenu ul{
+    display :grid;
+}
+.menu ul li:hover .submenu ul li{
+    
+    border: none;
+    border-bottom: 1px solid;
+}
+.menu ul li:hover .submenu ul li a{
+    text-decoration: none;
+    color: rgb(131, 155, 36);
+}
+section{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.danhmuc1{
+    background-color: rgb(194, 213, 230);
+    text-align: left;
+    color: aliceblue
+}
+.tendanhmuc p{
+    margin: 0;
+    padding:10px;
+    border-bottom:  1px solid white;
+}
+.danhsach{
+    background-color: aqua;
+}
+.danhsach ul{
+    margin: 0px;
+    list-style: square;
+    text-align: left;
+}
+.danhsach ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.anhdanhmuc{
+    background-color: antiquewhite;
+}
+.anhdanhmuc .anh{
+    text-align: center;
+}
+.anhdanhmuc .anh img{
+    margin: 10px;
+    width: 80%;
+    height: 27%;
+}
+.danhmuc2{
+    display:grid;
+    grid-template-rows: 1fr 2fr;
+    
+}
+.banner{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(197, 245, 245);
+}
+.banner img{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.danhmuc{
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: aqua;
+}
+.danhmuc .anh{
+    margin: 25px;
+    text-align: center;
+}
+
+.danhmuc .anh img{
+    
+    width: 100%;
+    height: 100%;
+}
+footer{
+    margin: 0;
+    background-color: aquamarine;
+    
+}
+footer p{
+    padding: 15px;
+    text-align: center;
+}

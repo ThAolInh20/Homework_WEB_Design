@@ -1,0 +1,146 @@
+header #banner{
+    background-color: pink;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+#banner img {
+    width: 100%;
+    height: 150px;
+}
+
+#menu {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: blue;
+    align-content: center;
+    text-align: center;
+}
+
+#menu ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    list-style-type: none;
+    align-content: center;
+}
+
+#menu li {
+    text-justify: auto;
+    text-align: center;
+}
+
+#menu a {
+    line-height: 50px;
+    color: white;
+    text-decoration: none;
+    display:block;
+    border-right: 1px white solid;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#menu a:hover{
+    background-color: red;
+}
+
+#menu input {
+    margin: 6px 10px;
+    border-radius: 5px;
+}
+
+#menu2 {
+    width: fit-content;
+    height: fit-content;
+    color: white;
+}
+
+#menu2 li.con{
+    background-color: #0066FF;
+    padding: 10px;
+}
+
+#menu2 li{
+    background-color: #33FFFF;
+    color: white;
+    border-bottom: 1px white solid;
+    position: relative;
+}
+
+#menu2 a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration:none;
+    line-height:40px;
+    display:block;
+    padding: 0px 10px;
+}
+
+#menu2 a:hover {
+    background-color: red;
+}
+
+#menu2 li ul {
+    display: none;
+    list-style-type: none;
+    background-color:red;
+    position:absolute;
+    width:max-content;
+    top: 0px;
+    left: 100%;
+}
+
+#menu2 li:hover ul{
+    display: grid;
+}
+
+#menu2 li:hover ul li a{
+    color: white;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-top: 30px;
+}
+
+#content h3{
+    background-color: #0066FF;
+    color: white;
+    padding: 5px;
+    height: fit-content;
+    width: fit-content;
+    line-height: 30px;
+}
+
+#content hr{
+    background-color: #0066FF;
+    width: 100%;
+    height: 3px;
+}
+
+div.con {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+}
+
+div.sanpham {
+    border: 1px black solid;
+    margin-top: 30px;
+}
+
+div.anh img{
+    height: 100px;
+    width: 200px;
+    padding: 2px;
+}
+
+div.chu {
+    position: inherit;
+    text-align: center;
+    padding: 5px;
+}
