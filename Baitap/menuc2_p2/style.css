@@ -1,0 +1,103 @@
+body{
+    background-image: url('anh1.jpg');
+    background-size: cover;
+    background-position-y: -100px;
+}
+.conterner-menu{
+    max-width: 960px;
+    margin: 0px auto;
+    
+}
+.conterner-menu{
+    background-color: rgb(91, 114, 239);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.conterner-menu img{
+    width: 155px;
+    height: auto;
+    margin: 0;
+}
+.conterner-menu .menu{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+.conterner-menu .menu li{
+    padding: 30px;
+    margin: 0px;
+    position: relative;
+    background-color:  rgb(91, 114, 239);
+    transition: background-color 0.5s ease-in-out ;
+}
+.conterner-menu .menu li:hover{
+    background-color: rgb(219, 233, 246);
+}
+.conterner-menu .menu li a{
+    color: aqua;
+    text-decoration: none;
+}
+
+.conterner-menu .menu .submenu{
+    position: absolute;
+    background-color: rgb(91, 114, 239);
+    margin-top: 12px;
+    width: 120px;
+
+}
+.conterner-menu .menu li:hover .submenu{
+    display: block;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.conterner-menu .menu li:hover a{
+    color:rgb(91, 114, 239);
+}
+.conterner-menu .menu .submenu ul{
+    list-style: none;
+    width: 100%;
+    padding: 0;
+}
+.conterner-menu .menu .submenu{
+    margin-top: 30px;
+    margin-left: -30px;
+    background-color:rgb(243, 243, 243) ;
+}
+.conterner-menu .menu .submenu ul li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    border-top:1px solid ;
+    position: relative;
+}
+.conterner-menu .menu .submenu ul li a{
+    color: rgb(34, 221, 221);
+}
+.conterner-menu .menu .submenu{
+    display: none;
+}
+.conterner-menu .submenu .submenu2{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -10px;
+    background-color: aqua;
+    display: none;
+
+}
+.conterner-menu .menu .submenu li:hover{
+    background-color: aqua;
+}
+.conterner-menu .menu .submenu li:hover a{
+    color: rgb(6, 6, 59);
+}
+.conterner-menu .submenu li:hover .submenu2{
+    display: block;
+    width: 120px;
+}
